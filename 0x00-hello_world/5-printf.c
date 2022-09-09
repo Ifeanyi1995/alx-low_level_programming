@@ -2,9 +2,6 @@
 
 /**                                 
 * main - main block
-*
-* Description: using the main function
-* this program prints "programming is like building a multilingual puzzle
 * Return: 0 (Good)                
 */              
 int main(void)
