@@ -18,7 +18,7 @@ while (h < 58)
 		e = 48;
 		while (e < 58)
 		{
-		        i = 48;
+			i = 48;
 			while (i < 58)
 			{
 				op1 = (h * 10) + g;
@@ -31,9 +31,7 @@ while (h < 58)
 					putchar(e);
 					putchar(i);
 					if (h == 57 && g == 56 && e == 57 && i == 57)
-						
 						break;
-
 					putchar(',');
 					putchar(' ');
 				}
