@@ -21,5 +21,5 @@ int main(void)
 		n2 = fn;
 	}
 	printf("\n");
-	Return (0);
+	return (0);
 }
