@@ -39,6 +39,6 @@ int comparator(char *s, int n1, int n2)
 int is_palindrome(char *s)
 {
 	if (*s == '\0')
-		if (*s == '\0')
-			return (comparator(s, 0, _strlen_recursion(s) - 1));
+		return (1);
+	return (comparator(s, 0, _strlen_recursion(s) - 1));
 }
